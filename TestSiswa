@@ -1,0 +1,16 @@
+package latihan3;
+
+/**
+ *
+ * @author nabila
+ */
+public class TestSiswa {
+    public static void main(String[] args) {
+        EncapSiswa siswa = new EncapSiswa();
+        siswa.setName("Winwin");
+        siswa.setAbsen(31);
+        siswa.setAddress("Malang");
+        
+        System.out.println(" Name : " + siswa.getName() + " Absen : " + siswa.getAbsen() + " Address : " + siswa.getAddress());
+    }
+}
